@@ -10,10 +10,7 @@ dotenv.config();
 const app = express();
 const port = process.env.PORT || 5000;
 
-app.use(cors({
-  origin: 'http://localhost:5173', // Change this to match your frontend URL
-  credentials: true // If sending cookies or authentication tokens
-}));
+app.use(cors({ origin: "https://todoclient-197c.onrender.com", credentials: true }));
 
 app.use(express.json());
 
