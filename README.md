@@ -1,6 +1,4 @@
-# Create a README.md file for the backend
-
-backend_readme_content = """# Todo App Backend
+# Todo App Backend
 
 This is the backend of the Todo App built using **Node.js**, **Express.js**, and **MongoDB**. It provides APIs for user authentication, task management, and OTP-based verification.
 
